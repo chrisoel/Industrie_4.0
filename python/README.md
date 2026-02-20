@@ -83,12 +83,14 @@ import sys
 print(sys.executable)
 ```
 
-## Empfohlene GitHub-Struktur
+## Produktion / Einsatzhinweise
 
-- Hauptbranch: `main`
-- Commit-Botschaften kurz und kapitelbezogen (z. B. `Kapitel 05: Übungen erweitert`)
-- Große Binärdateien vermeiden (Notebooks sind bereits als Text/JSON versionierbar)
+- Für reproduzierbare Setups immer in einer virtuellen Umgebung arbeiten.
+- Abhängigkeiten über `requirements.txt` und optional `requirements-optional.txt` installieren.
+- Notebook-Demos erzeugen Dateien in Unterordnern (`io_demo`, `standardbibliothek_demo`, `robustheit_demo`).
+- Vor produktiver Nutzung sensible oder temporäre Daten nicht versionieren.
 
 ## Lizenz
 
-Der Lizenzstatus ist aktuell noch nicht festgelegt.
+Dieses Teilprojekt ist unter der MIT-Lizenz veröffentlicht.
+Siehe `../LICENSE`.
