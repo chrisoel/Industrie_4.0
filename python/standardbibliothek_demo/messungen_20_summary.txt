@@ -1,0 +1,5 @@
+Messungs-Zusammenfassung
+Anzahl: 20
+Min: 18.29
+Max: 24.88
+Mittel: 21.8

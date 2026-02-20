@@ -1,0 +1,2 @@
+ERROR Datei fehlt
+ERROR Netzwerkfehler
